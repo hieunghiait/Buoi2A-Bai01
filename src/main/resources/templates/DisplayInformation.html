@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Show name</title>
+    <style>
+        .information{
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 50px;
+            color: #08cdb6;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12  information">
+            <p>Hello <span th:text="${Name}"></span></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
