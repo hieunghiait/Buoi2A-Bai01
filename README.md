@@ -1,2 +1,2 @@
-# Buoi2A-Bai01
-Spring boot
+# Bài tập Lập trình SpringBoot
+## Buổi 2A Bài 1
